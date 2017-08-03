@@ -2,12 +2,9 @@
 
 App::uses('AppController', 'Controller');
 
-class UserController extends AppController {
+class HomeController extends AppController{
 
-	/**
-	 * 
-	 */
 	public function index () {
-		
+		echo 'Home Controller';
 	}
 }
