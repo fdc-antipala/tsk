@@ -6,13 +6,16 @@
 		<?php echo $this->fetch('title'); ?>
 	</title>
 	<?php
-		echo $this->Html->meta('icon');
+		// echo $this->Html->meta('icon');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 
 		echo $this->Html->script('jquery-3.1.1');
 		echo $this->Html->script('script');
+
+		echo $this->Html->css('//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css');
+		echo $this->Html->css('login');
 
 	?>
 </head>

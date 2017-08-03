@@ -30,6 +30,7 @@
  * ...and connect the rest of 'Pages' controller's URLs.
  */
 	// Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	Router::connect('/tsk/login', array('controller' => 'Login', 'action' => 'index'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on
