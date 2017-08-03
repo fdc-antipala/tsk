@@ -1,0 +1,17 @@
+2017-08-02 11:35:06 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /tsk/
+Stack Trace:
+#0 C:\xampp\htdocs\tsk\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\tsk\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\tsk\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\tsk\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\tsk\lib\Cake\Controller\Controller.php(644): ComponentCollection->init(Object(PagesController))
+#7 C:\xampp\htdocs\tsk\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\tsk\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 C:\xampp\htdocs\tsk\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
