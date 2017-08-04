@@ -1,0 +1,104 @@
+* {
+
+}
+
+/********
+	START HEADER
+********/
+header {
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	height: 42px;
+	background-color: #34362f;
+	z-index: 2;
+}
+
+.logoBrand h2 {
+	color: #FFF;
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.headerContainer {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 42px;
+	padding-left: 10px;
+}
+
+/**
+ * burger menu
+ */
+.burgerMenu {
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #FFF;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+.searchArea {
+	position: absolute;
+	top: 4px;
+	left: 23%;
+}
+
+.headerMenus {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 5%;
+	top: 0;
+}
+
+.headerMenus ul {
+	display: flex;
+	align-items: center;
+	height: 42px;
+	line-height: 42px;
+	color: red;
+	list-style: none;
+}
+
+.headerMenus ul li {
+	color: #FFF;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+input[type=text] {
+	width: 130px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('../img/searchicon.png');
+	background-position: 8px 6px; 
+	background-repeat: no-repeat;
+	padding: 4px 20px 4px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+	width: 100%;
+}
+
+/********
+	END HEADER
+********/
