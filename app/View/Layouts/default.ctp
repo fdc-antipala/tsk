@@ -36,6 +36,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		// master test
 		//test ra.
+  
+		// test commit
+		echo $this->fetch('script');
+
 	?>
 </head>
 <body>

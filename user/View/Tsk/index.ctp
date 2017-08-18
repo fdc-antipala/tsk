@@ -1,14 +1,11 @@
-<div>
-	<h1>Tsk</h1>
+<div class="content_wrapper <?php echo strtolower($this->params['controller']); ?> home">
+	<div class="lef-side">
+		
+	</div>
+	<div class="main-timeline">
+		
+	</div>
+	<div class="right-side">
+		
+	</div>
 </div>
-<script type="text/javascript">
-	var login = 'login';
-</script>
-
-<div>
-	<hr>
-	<h1>test</h1>
-</div>
-<script type="text/javascript">
-	console.log(login);
-</script>
